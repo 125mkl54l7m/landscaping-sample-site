@@ -53,12 +53,12 @@ $(function () {
     const grid = $('.my-masonry-grid');
     grid.empty();
     
-    $('#product-hero').css('background-image', `url('Products_page_assets/product-${productID}.png')`);
+    $('#product-hero').css('background-image', `url('assets/img/Products_page_assets/product-${productID}.png')`);
     
     const video = $('#product-video-player');
 
     // Update the source attribute of the video
-    video.find('source').attr('src', `Product-clicked-assets/product-${productID}/product-${productID}.mp4`);
+    video.find('source').attr('src', `assets/img/Product-clicked-assets/product-${productID}/product-${productID}.mp4`);
     
     // Reload the video to apply the new source
     video.get(0).load();    
@@ -68,7 +68,7 @@ $(function () {
             const height = 300 + (index * 20); // Example height calculation
             grid.append(`
                 <div class="my-masonry-grid-item" style="height: ${height}px;">
-                    <img id="collage-images" src="${image}" alt="Product Image" />
+                    <img id="collage-images" src="assets/img/${image}" alt="Product Image" />
                 </div>
             `);
         });

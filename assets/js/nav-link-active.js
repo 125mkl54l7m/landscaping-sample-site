@@ -10,12 +10,12 @@ $(document).ready(function () {
         // console.log(pathNoSlash)
         // console.log(href)
         // console.log(hrefNoSlash)
-        console.log(pathSplitted)
+        console.log(pathSplitted.slice(-1)[0])
         console.log(hrefNoSlash)
 
-        if (hrefNoSlash === pathSplitted[1]) {
+        if (hrefNoSlash === pathSplitted.slice(-1)[0]) {
             $(this).addClass('active');
-            console.log('match:              ' + path);
+            console.log('match:' + path);
             // write a elif for if path contains href word then active
         }
         else {
