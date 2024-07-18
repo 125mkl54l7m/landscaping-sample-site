@@ -1,0 +1,52 @@
+#navbar-main {
+}
+
+#navcol-1 {
+  justify-content: center;
+  font-family: 'Open Sans';
+  font-size: 164.6%;
+}
+
+#Main-Header {
+  text-align: center;
+  font-size: 350%;
+  font-family: 'Merriweather';
+}
+
+#index-sections {
+  margin-top: 3.2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#index-subheader {
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 349%;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+#prodcut-columns {
+  padding: 3rem;
+  align-self: end;
+}
+
+#product-text {
+}
+
+#product-image {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#learn-more-button {
+  border: none;
+  font-size: 110%;
+  background-color: #228b22;
+  border-radius: 15rem;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  max-width: 250px;
+}
+
